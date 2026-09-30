@@ -1,16 +1,55 @@
-# React + Vite
+# e-plantShopping
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+## Project Description
 
-Currently, two official plugins are available:
+e-plantShopping is a React-based online plant shopping application.
+It allows users to browse different categories of houseplants, add plants
+to a shopping cart, update quantities, remove items, and view the total
+number and cost of plants in the cart.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+## Features
 
-## React Compiler
+- Landing page for e-plantShopping
+- Company information
+- Get Started button
+- Houseplant product listing
+- Multiple plant categories
+- Plant images, names, and prices
+- Add to Cart functionality
+- Dynamic cart count
+- Increase and decrease quantities
+- Delete products from cart
+- Total number of plants
+- Total cart cost
+- Checkout button
+- Continue Shopping option
+- Redux state management
+- Responsive design
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Plant Categories
 
-## Expanding the Oxlint configuration
+- Indoor Plants
+- Succulents
+- Flowering Plants
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+## Technologies Used
+
+- React
+- Vite
+- Redux Toolkit
+- React Redux
+- React Router
+- CSS
+
+## Project Structure
+
+- `App.jsx` - Main application and routing
+- `App.css` - Application styling
+- `AboutUs.jsx` - About section
+- `ProductList.jsx` - Plant products and categories
+- `CartItem.jsx` - Shopping cart interface
+- `CartSlice.jsx` - Redux cart state management
+
+## Author
+
+Rimsha
